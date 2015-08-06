@@ -1,0 +1,8 @@
+config MTK_LENS
+  bool CONFIG_MTK_LENS
+  default n
+  help
+    CONFIG_MTK_LENS
+config MTK_LENS_WV511AAF_SUPPORT
+	bool "WV511AAF Lens Driver"
+	default n
